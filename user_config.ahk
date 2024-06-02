@@ -31,6 +31,10 @@
 !8::switchDesktopByNumber(8)
 !9::switchDesktopByNumber(9)
 
+!+g::OnTogglePinOnTopPress()
+!+h::OnTogglePinAppPress()
+!+j::OnTogglePinWindowPress()
+
 !+n::switchDesktopToRight()
 !+p::switchDesktopToLeft()
 !+s::switchDesktopToRight()
