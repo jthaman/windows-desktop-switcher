@@ -35,11 +35,11 @@
 !+h::OnTogglePinAppPress()
 !+j::OnTogglePinWindowPress()
 
-!+n::switchDesktopToRight()
-!+p::switchDesktopToLeft()
-!+s::switchDesktopToRight()
-!+a::switchDesktopToLeft()
-!+tab::switchDesktopToLastOpened()
++!n::switchDesktopToRight()
++!p::switchDesktopToLeft()
++!Right::switchDesktopToRight()
++!Left::switchDesktopToLeft()
++!tab::switchDesktopToLastOpened()
 
 !+c::createVirtualDesktop()
 !+d::deleteVirtualDesktop()
@@ -54,8 +54,8 @@
 !+8::MoveCurrentWindowToDesktop(8)
 !+9::MoveCurrentWindowToDesktop(9)
 
-!+Right::MoveCurrentWindowToRightDesktop()
-!+Left::MoveCurrentWindowToLeftDesktop()
+; !+Right::MoveCurrentWindowToRightDesktop()
+; !+Left::MoveCurrentWindowToLeftDesktop()
 
 
 ; ===========================
@@ -127,12 +127,6 @@
 ; +!Numpad7::switchDesktopByNumber(7)
 ; +!Numpad8::switchDesktopByNumber(8)
 ; +!Numpad9::switchDesktopByNumber(9)
-
-; +!n::switchDesktopToRight()
-; +!p::switchDesktopToLeft()
-; +!s::switchDesktopToRight()
-; +!a::switchDesktopToLeft()
-; +!tab::switchDesktopToLastOpened()
 
 ; +!c::createVirtualDesktop()
 ; +!d::deleteVirtualDesktop()
