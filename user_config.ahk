@@ -35,8 +35,8 @@
 !+h::OnTogglePinAppPress()
 !+j::OnTogglePinWindowPress()
 
-+!n::switchDesktopToRight()
-+!p::switchDesktopToLeft()
++!s::switchDesktopToRight()
++!a::switchDesktopToLeft()
 +!Right::switchDesktopToRight()
 +!Left::switchDesktopToLeft()
 +!tab::switchDesktopToLastOpened()
